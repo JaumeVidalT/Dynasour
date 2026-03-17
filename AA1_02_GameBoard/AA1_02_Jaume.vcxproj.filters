@@ -18,13 +18,27 @@
     <ClCompile Include="main.cpp">
       <Filter>Archivos de recursos</Filter>
     </ClCompile>
-    <ClCompile Include="dynasour.cpp">
+    <ClCompile Include="cell.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dynasour.h">
-      <Filter>Archivos de origen</Filter>
+    <ClInclude Include="player.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="cell.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Board.txt">
+      <Filter>Archivos de encabezado</Filter>
+    </Text>
   </ItemGroup>
 </Project>
